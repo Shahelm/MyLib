@@ -11,8 +11,7 @@ namespace MyLib;
  * </code>
  *
  * @package  MyLib
- * @author   Aleksandr Markovskiy <shakal3351@gmail.com>
- * @see      http://www.example.com/pear
+ * @author   Aleksandr Markovskiy <shakal3351@gmail.com> 
  */
 Class HierarchyParentChild
 {
