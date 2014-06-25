@@ -1,18 +1,8 @@
-<?php
-    if (is_resource($result)) {
-        while ($out = mysql_fetch_assoc($result)) {
-            if (!isset($return[$out['id']])) {
-                $return[$out['id']]['mmy_ids'][] = $out['mmy_ids'];
-                $return[$out['id']]['id'] = $out['id'];
-                $return[$out['id']]['name'] = $out['name'];
-                $return[$out['id']]['description'] = $out['description'];
-                $return[$out['id']]['template_id'] = $out['template_id'];
-                $return[$out['id']]['manufacturer_id'] = $out['manufacturer_id'];
-                $return[$out['id']]['recommended'] = $out['recommended'];
-                $return[$out['id']]['ptype_id'] = $out['ptype_id'];
-                $return[$out['id']]['main_category_url'] = $out['main_category_url'];
-            } else {
-                $return[$out['id']]['mmy_ids'][] = $out['mmy_ids'];
-            }
-        }
-    }
+SEO:
+
+1. 1-3 ключивых слов в description длина 156
+2. минимум 300 символов контента на странице
+3. минимум 50 уникальных слов на старнице
+4. урл не больше 75 символов
+5. title 50-75 символов
+6. 1-2 тега h1 на странице
